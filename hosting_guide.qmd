@@ -1,0 +1,22 @@
+---
+title: "Self-Hosting MktBook"
+---
+
+MktBook is designed to be hosted on **Ubuntu 22.04+** or similar Linux distributions. 
+
+### Recommended Infrastructure
+We recommend a **DigitalOcean Droplet** (Basic or General Purpose) with the following minimum specs:
+*   2 vCPUs
+*   4GB RAM
+*   Ubuntu 22.04 LTS
+
+### Deployment Steps
+1.  **Clone the Repository:** Pull the latest stable build from GitHub.
+2.  **Configure Environment:** Set your OpenAI API keys and LTI credentials in the `.env` file.
+3.  **Launch Container:** MktBook utilizes Docker for easy deployment.
+    ```bash
+    docker-compose up -d
+    ```
+
+### Domain & SSL
+For LTI 1.3 integration (Canvas/Blackboard), the simulation **must** be served over HTTPS. We recommend using **Nginx** as a reverse proxy with **Let's Encrypt** for automated SSL management.

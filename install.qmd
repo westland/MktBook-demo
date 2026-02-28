@@ -1,0 +1,17 @@
+---
+title: "Installation & Setup"
+---
+
+### System Requirements
+
+-   **Platform:** Web-based UI (Chrome, Safari, Edge)
+-   **Infrastructure:** No Discord or external messaging apps required.
+
+### Downloads
+
+[**Download Windows Installer (v1.0)**](https://github.com/westland/mktbook/releases)\
+[**Download macOS Installer (v1.0)**](https://github.com/westland/mktbook/releases)
+
+### Instructor Access
+
+To request a Global Admin key to view leaderboards and manage your classroom marketplace, please contact [J. Christopher Westland](mailto:westland@uic.edu).

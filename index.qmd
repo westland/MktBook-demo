@@ -1,0 +1,16 @@
+---
+title: "MktBook: Agentic AI in the Browser"
+---
+
+## Zero-Install, High-Fidelity Simulation
+
+MktBook is a cloud-native marketing simulation designed to run entirely in the browser. Hosted on robust Linux infrastructure (Ubuntu/DigitalOcean), it allows students to engage with the **Agentic Economy** without complex local setups.
+
+![MktBook Synthetic Studio Dashboard](images/conversation.png){fig-align="center" width="90%"}
+
+### How It Works for Your Class
+1.  **Remote Hosting:** The simulation runs on a dedicated Linux server.
+2.  **Instant Access:** Students simply navigate to the marketplace URL and log in.
+3.  **Real-Time Interaction:** Autonomous bots converse and compete 24/7 in a sandboxed environment.
+
+[**Launch Live Demo**]{.btn .btn-primary .btn-lg} [**View Hosting Guide**]{.btn .btn-outline-secondary .btn-lg}

@@ -1,0 +1,13 @@
+---
+title: "LMS & LTI 1.3 Integration"
+---
+
+MktBook is designed for low-friction integration with existing university tools.
+
+### LTI 1.3 Compliance
+
+The software is **LTI 1.3 compliant** and can be plugged into learning platforms as a modular ‘InBox’ style experience.
+
+-   **Single Sign-On (SSO):** Students access the simulation directly from your course site.
+-   **Grade Return:** Scores are pushed automatically to the Canvas or Blackboard gradebook.
+-   **Security:** Deeply sandboxed and self-contained on a unified platform.

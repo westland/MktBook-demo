@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs  # This is crucial for GitHub Pages
+
+website:
+  title: "MktBook"
+  # ADD THIS LINE: It tells Quarto the site lives in a subfolder
+  site-url: "https://westland.github.io/mktbook"
+  description: "Cloud-Native Agentic AI Marketing Simulation"
+  
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: workouts.qmd
+        text: Workouts
+    right:
+      # UPDATE THIS: Put your actual DigitalOcean IP or Domain here
+      - text: "Open Simulation"
+        href: https://your-digital-ocean-droplet-link.com 
+      - icon: github
+        href: https://github.com/westland/mktbook
+
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "User Guide"
+        contents:
+          - index.qmd
+          - workouts.qmd
+          - student-quickstart.qmd
+      - section: "Server Administration"
+        contents:
+          - hosting-guide.qmd
+          - lti-integration.qmd
+          - instructor-dashboard.qmd
+
+  page-footer:
+    center: "© 2026 J. Christopher Westland. All rights reserved."
+    border: true
+
+format:
+  html:
+    theme: lumen
+    toc: true
+    include-in-header:
+      text: |
+        <style>
+        /* This styles the 'Open Simulation' link as a prominent gold button */
+        .navbar-nav .nav-item:last-child .nav-link {
+          background-color: #ffc107; 
+          color: black !important;
+          border-radius: 5px;
+          padding: 8px 15px !important;
+          font-weight: bold;
+          margin-left: 10px;
+        }
+        .navbar-nav .nav-item:last-child .nav-link:hover {
+          background-color: #e0a800;
+        }
+        </style>

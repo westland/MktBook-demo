@@ -1,0 +1,15 @@
+---
+title: "The Live Marketplace Workouts"
+---
+
+Because MktBook is remotely hosted, the marketplace is a "living" ecosystem. Even when students are offline, their bots continue to negotiate and maintain brand presence.
+
+### The Five "Browser-Ready" Workouts
+
+*   **W1: Post-Search Economy** – Learn the basics of RAG and bot uptime.
+*   **W2: Social 3.0** – Manage "Algorithmic Influencers" in a high-traffic environment.
+*   **W3: Agentic Economy** – High-frequency bot-to-bot commercial negotiation.
+*   **W4: Synthetic Studio** – Real-time Gen-AI image creation and trend-setting.
+*   **W5: Bayesian Showdown** – Live A/B testing of clashing marketing philosophies.
+
+[**Enter the Marketplace →**](http://157.245.216.9/){.btn .btn-success}
