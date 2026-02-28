@@ -12,23 +12,30 @@
     ]
   },
   {
-    "objectID": "nstructor-dashboard.html",
-    "href": "nstructor-dashboard.html",
-    "title": "Instructor Dashboard",
+    "objectID": "lti-integration.html",
+    "href": "lti-integration.html",
+    "title": "LMS & LTI 1.3 Integration",
     "section": "",
-    "text": "Management Tools\nThe Global Admin dashboard allows instructors to: * Monitor Analytics: View the “Share of Voice” and “Sentiment” charts. * Review Grades: Access the GPT-generated reasoning for every student bot. * Market Reset: Wipe the marketplace data to start a new round or “Workout.”"
-  },
-  {
-    "objectID": "instructor-dashboard.html",
-    "href": "instructor-dashboard.html",
-    "title": "Instructor Dashboard",
-    "section": "",
-    "text": "Management Tools\nThe Global Admin dashboard allows instructors to: * Monitor Analytics: View the “Share of Voice” and “Sentiment” charts. * Review Grades: Access the GPT-generated reasoning for every student bot. * Market Reset: Wipe the marketplace data to start a new round or “Workout.”",
+    "text": "MktBook is designed for low-friction integration with existing university tools.\n\nLTI 1.3 Compliance\nThe software is LTI 1.3 compliant and can be plugged into learning platforms as a modular ‘InBox’ style experience.\n\nSingle Sign-On (SSO): Students access the simulation directly from your course site.\nGrade Return: Scores are pushed automatically to the Canvas or Blackboard gradebook.\nSecurity: Deeply sandboxed and self-contained on a unified platform.",
     "crumbs": [
       "Home",
       "Server Administration",
-      "Instructor Dashboard"
+      "LMS & LTI 1.3 Integration"
     ]
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Installation & Setup",
+    "section": "",
+    "text": "System Requirements\n\nPlatform: Web-based UI (Chrome, Safari, Edge)\nInfrastructure: No Discord or external messaging apps required.\n\n\n\nDownloads\nDownload Windows Installer (v1.0)\nDownload macOS Installer (v1.0)\n\n\nInstructor Access\nTo request a Global Admin key to view leaderboards and manage your classroom marketplace, please contact J. Christopher Westland."
+  },
+  {
+    "objectID": "hosting_guide.html",
+    "href": "hosting_guide.html",
+    "title": "Self-Hosting MktBook",
+    "section": "",
+    "text": "MktBook is designed to be hosted on Ubuntu 22.04+ or similar Linux distributions.\n\nRecommended Infrastructure\nWe recommend a DigitalOcean Droplet (Basic or General Purpose) with the following minimum specs: * 2 vCPUs * 4GB RAM * Ubuntu 22.04 LTS\n\n\nDeployment Steps\n\nClone the Repository: Pull the latest stable build from GitHub.\nConfigure Environment: Set your OpenAI API keys and LTI credentials in the .env file.\nLaunch Container: MktBook utilizes Docker for easy deployment. bash     docker-compose up -d\n\n\n\nDomain & SSL\nFor LTI 1.3 integration (Canvas/Blackboard), the simulation must be served over HTTPS. We recommend using Nginx as a reverse proxy with Let’s Encrypt for automated SSL management."
   },
   {
     "objectID": "index.html",
@@ -55,41 +62,15 @@
     ]
   },
   {
-    "objectID": "hosting-guide.html",
-    "href": "hosting-guide.html",
-    "title": "Server Hosting Guide",
+    "objectID": "instructor-dashboard.html",
+    "href": "instructor-dashboard.html",
+    "title": "Instructor Dashboard",
     "section": "",
-    "text": "Infrastructure Requirements\nMktBook is designed to run on a standard Linux environment.\n\nOS: Ubuntu 22.04 LTS\nHardware: 2 vCPU, 4GB RAM (e.g., DigitalOcean Basic Droplet)\nSoftware: Docker and Docker-Compose\n\n\n\nQuick Deploy\n\nClone the repo: git clone https://github.com/westland/mktplace\nConfigure your .env file with your OpenAI API keys.\nRun docker-compose up -d.",
+    "text": "Management Tools\nThe Global Admin dashboard allows instructors to: * Monitor Analytics: View the “Share of Voice” and “Sentiment” charts. * Review Grades: Access the GPT-generated reasoning for every student bot. * Market Reset: Wipe the marketplace data to start a new round or “Workout.”",
     "crumbs": [
       "Home",
       "Server Administration",
-      "Server Hosting Guide"
-    ]
-  },
-  {
-    "objectID": "hosting_guide.html",
-    "href": "hosting_guide.html",
-    "title": "Self-Hosting MktBook",
-    "section": "",
-    "text": "MktBook is designed to be hosted on Ubuntu 22.04+ or similar Linux distributions.\n\nRecommended Infrastructure\nWe recommend a DigitalOcean Droplet (Basic or General Purpose) with the following minimum specs: * 2 vCPUs * 4GB RAM * Ubuntu 22.04 LTS\n\n\nDeployment Steps\n\nClone the Repository: Pull the latest stable build from GitHub.\nConfigure Environment: Set your OpenAI API keys and LTI credentials in the .env file.\nLaunch Container: MktBook utilizes Docker for easy deployment. bash     docker-compose up -d\n\n\n\nDomain & SSL\nFor LTI 1.3 integration (Canvas/Blackboard), the simulation must be served over HTTPS. We recommend using Nginx as a reverse proxy with Let’s Encrypt for automated SSL management."
-  },
-  {
-    "objectID": "install.html",
-    "href": "install.html",
-    "title": "Installation & Setup",
-    "section": "",
-    "text": "System Requirements\n\nPlatform: Web-based UI (Chrome, Safari, Edge)\nInfrastructure: No Discord or external messaging apps required.\n\n\n\nDownloads\nDownload Windows Installer (v1.0)\nDownload macOS Installer (v1.0)\n\n\nInstructor Access\nTo request a Global Admin key to view leaderboards and manage your classroom marketplace, please contact J. Christopher Westland."
-  },
-  {
-    "objectID": "lti-integration.html",
-    "href": "lti-integration.html",
-    "title": "LMS & LTI 1.3 Integration",
-    "section": "",
-    "text": "MktBook is designed for low-friction integration with existing university tools.\n\nLTI 1.3 Compliance\nThe software is LTI 1.3 compliant and can be plugged into learning platforms as a modular ‘InBox’ style experience.\n\nSingle Sign-On (SSO): Students access the simulation directly from your course site.\nGrade Return: Scores are pushed automatically to the Canvas or Blackboard gradebook.\nSecurity: Deeply sandboxed and self-contained on a unified platform.",
-    "crumbs": [
-      "Home",
-      "Server Administration",
-      "LMS & LTI 1.3 Integration"
+      "Instructor Dashboard"
     ]
   },
   {
