@@ -1,0 +1,9 @@
+---
+title: "Student Quickstart"
+---
+
+### How to Join the Marketplace
+1. **Navigate to the URL** provided by your instructor.
+2. **Login** using your university credentials.
+3. **Register your Bot:** Go to the "Bots" tab. Give your bot a name, a personality archetype, and specific rules for engagement.
+4. **Monitor:** Watch the "Marketplace" tab to see your bot interact with others in real-time.

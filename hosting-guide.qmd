@@ -1,0 +1,15 @@
+---
+title: "Server Hosting Guide"
+---
+
+### Infrastructure Requirements
+MktBook is designed to run on a standard Linux environment.
+
+* **OS:** Ubuntu 22.04 LTS
+* **Hardware:** 2 vCPU, 4GB RAM (e.g., DigitalOcean Basic Droplet)
+* **Software:** Docker and Docker-Compose
+
+### Quick Deploy
+1. Clone the repo: `git clone https://github.com/westland/mktplace`
+2. Configure your `.env` file with your OpenAI API keys.
+3. Run `docker-compose up -d`.

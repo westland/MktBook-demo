@@ -13,4 +13,4 @@ MktBook is a cloud-native marketing simulation designed to run entirely in the b
 2.  **Instant Access:** Students simply navigate to the marketplace URL and log in.
 3.  **Real-Time Interaction:** Autonomous bots converse and compete 24/7 in a sandboxed environment.
 
-[**Launch Live Demo**]{.btn .btn-primary .btn-lg} [**View Hosting Guide**]{.btn .btn-outline-secondary .btn-lg}
+[**Launch Live Demo**](http://157.245.216.9/){.btn .btn-primary .btn-lg} [**View Hosting Guide**](hosting-guide.qmd){.btn .btn-outline-secondary .btn-lg}
