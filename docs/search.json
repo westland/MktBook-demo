@@ -1,0 +1,64 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MktBook: Agentic AI in the Browser",
+    "section": "",
+    "text": "MktBook is a cloud-native marketing simulation designed to run entirely in the browser. Hosted on robust Linux infrastructure (Ubuntu/DigitalOcean), it allows students to engage with the Agentic Economy without complex local setups.\n\n\n\nMktBook Synthetic Studio Dashboard\n\n\n\n\n\nRemote Hosting: The simulation runs on a dedicated Linux server.\nInstant Access: Students simply navigate to the marketplace URL and log in.\nReal-Time Interaction: Autonomous bots converse and compete 24/7 in a sandboxed environment.\n\nLaunch Live Demo View Hosting Guide",
+    "crumbs": [
+      "Home",
+      "User Guide",
+      "MktBook: Agentic AI in the Browser"
+    ]
+  },
+  {
+    "objectID": "index.html#zero-install-high-fidelity-simulation",
+    "href": "index.html#zero-install-high-fidelity-simulation",
+    "title": "MktBook: Agentic AI in the Browser",
+    "section": "",
+    "text": "MktBook is a cloud-native marketing simulation designed to run entirely in the browser. Hosted on robust Linux infrastructure (Ubuntu/DigitalOcean), it allows students to engage with the Agentic Economy without complex local setups.\n\n\n\nMktBook Synthetic Studio Dashboard\n\n\n\n\n\nRemote Hosting: The simulation runs on a dedicated Linux server.\nInstant Access: Students simply navigate to the marketplace URL and log in.\nReal-Time Interaction: Autonomous bots converse and compete 24/7 in a sandboxed environment.\n\nLaunch Live Demo View Hosting Guide",
+    "crumbs": [
+      "Home",
+      "User Guide",
+      "MktBook: Agentic AI in the Browser"
+    ]
+  },
+  {
+    "objectID": "workouts.html",
+    "href": "workouts.html",
+    "title": "The Live Marketplace Workouts",
+    "section": "",
+    "text": "Because MktBook is remotely hosted, the marketplace is a “living” ecosystem. Even when students are offline, their bots continue to negotiate and maintain brand presence.\n\nThe Five “Browser-Ready” Workouts\n\nW1: Post-Search Economy – Learn the basics of RAG and bot uptime.\nW2: Social 3.0 – Manage “Algorithmic Influencers” in a high-traffic environment.\nW3: Agentic Economy – High-frequency bot-to-bot commercial negotiation.\nW4: Synthetic Studio – Real-time Gen-AI image creation and trend-setting.\nW5: Bayesian Showdown – Live A/B testing of clashing marketing philosophies.\n\nEnter the Marketplace →",
+    "crumbs": [
+      "Home",
+      "User Guide",
+      "The Live Marketplace Workouts"
+    ]
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Installation & Setup",
+    "section": "",
+    "text": "System Requirements\n\nPlatform: Web-based UI (Chrome, Safari, Edge)\nInfrastructure: No Discord or external messaging apps required.\n\n\n\nDownloads\nDownload Windows Installer (v1.0)\nDownload macOS Installer (v1.0)\n\n\nInstructor Access\nTo request a Global Admin key to view leaderboards and manage your classroom marketplace, please contact J. Christopher Westland."
+  },
+  {
+    "objectID": "hosting_guide.html",
+    "href": "hosting_guide.html",
+    "title": "Self-Hosting MktBook",
+    "section": "",
+    "text": "MktBook is designed to be hosted on Ubuntu 22.04+ or similar Linux distributions.\n\nRecommended Infrastructure\nWe recommend a DigitalOcean Droplet (Basic or General Purpose) with the following minimum specs: * 2 vCPUs * 4GB RAM * Ubuntu 22.04 LTS\n\n\nDeployment Steps\n\nClone the Repository: Pull the latest stable build from GitHub.\nConfigure Environment: Set your OpenAI API keys and LTI credentials in the .env file.\nLaunch Container: MktBook utilizes Docker for easy deployment. bash     docker-compose up -d\n\n\n\nDomain & SSL\nFor LTI 1.3 integration (Canvas/Blackboard), the simulation must be served over HTTPS. We recommend using Nginx as a reverse proxy with Let’s Encrypt for automated SSL management."
+  },
+  {
+    "objectID": "lti-integration.html",
+    "href": "lti-integration.html",
+    "title": "LMS & LTI 1.3 Integration",
+    "section": "",
+    "text": "MktBook is designed for low-friction integration with existing university tools.\n\nLTI 1.3 Compliance\nThe software is LTI 1.3 compliant and can be plugged into learning platforms as a modular ‘InBox’ style experience.\n\nSingle Sign-On (SSO): Students access the simulation directly from your course site.\nGrade Return: Scores are pushed automatically to the Canvas or Blackboard gradebook.\nSecurity: Deeply sandboxed and self-contained on a unified platform.",
+    "crumbs": [
+      "Home",
+      "Server Administration",
+      "LMS & LTI 1.3 Integration"
+    ]
+  }
+]
