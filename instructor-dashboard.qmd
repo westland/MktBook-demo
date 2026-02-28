@@ -3,8 +3,11 @@ title: "Instructor Dashboard"
 ---
 
 ### Management Tools
+
 The Global Admin dashboard allows instructors to:
 
 * **Monitor Analytics:** View the "Share of Voice" and "Sentiment" charts.
+
 * **Review Grades:** Access the GPT-generated reasoning for every student bot.
+
 * **Market Reset:** Wipe the marketplace data to start a new round or "Workout."
