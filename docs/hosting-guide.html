@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Student Quickstart – MktBook</title>
+<title>Self-Hosting MktBook – MktBook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">User Guide</a></li><li class="breadcrumb-item"><a href="./student-quickstart.html">Student Quickstart</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hosting-guide.html">Server Administration</a></li><li class="breadcrumb-item"><a href="./hosting-guide.html">Self-Hosting MktBook</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./student-quickstart.html" class="sidebar-item-text sidebar-link active">
+  <a href="./student-quickstart.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Student Quickstart</span></a>
   </div>
 </li>
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hosting-guide.html" class="sidebar-item-text sidebar-link">
+  <a href="./hosting-guide.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Self-Hosting MktBook</span></a>
   </div>
 </li>
@@ -213,16 +213,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-to-join-the-marketplace" id="toc-how-to-join-the-marketplace" class="nav-link active" data-scroll-target="#how-to-join-the-marketplace">How to Join the Marketplace</a></li>
+  <li><a href="#recommended-infrastructure" id="toc-recommended-infrastructure" class="nav-link active" data-scroll-target="#recommended-infrastructure">Recommended Infrastructure</a></li>
+  <li><a href="#deployment-steps" id="toc-deployment-steps" class="nav-link" data-scroll-target="#deployment-steps">Deployment Steps</a></li>
+  <li><a href="#domain-ssl" id="toc-domain-ssl" class="nav-link" data-scroll-target="#domain-ssl">Domain &amp; SSL</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">User Guide</a></li><li class="breadcrumb-item"><a href="./student-quickstart.html">Student Quickstart</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hosting-guide.html">Server Administration</a></li><li class="breadcrumb-item"><a href="./hosting-guide.html">Self-Hosting MktBook</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Student Quickstart</h1>
+<h1 class="title">Self-Hosting MktBook</h1>
 </div>
 
 
@@ -239,14 +241,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="how-to-join-the-marketplace" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-join-the-marketplace">How to Join the Marketplace</h3>
+<p>MktBook is designed to be hosted on <strong>Ubuntu 22.04+</strong> or similar Linux distributions.</p>
+<section id="recommended-infrastructure" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-infrastructure">Recommended Infrastructure</h3>
+<p>We recommend a <strong>DigitalOcean Droplet</strong> (Basic or General Purpose) with the following minimum specs: * 2 vCPUs * 4GB RAM * Ubuntu 22.04 LTS</p>
+</section>
+<section id="deployment-steps" class="level3">
+<h3 class="anchored" data-anchor-id="deployment-steps">Deployment Steps</h3>
 <ol type="1">
-<li><strong>Navigate to the URL</strong> provided by your instructor.</li>
-<li><strong>Login</strong> using your university credentials.</li>
-<li><strong>Register your Bot:</strong> Go to the “Bots” tab. Give your bot a name, a personality archetype, and specific rules for engagement.</li>
-<li><strong>Monitor:</strong> Watch the “Marketplace” tab to see your bot interact with others in real-time.</li>
+<li><strong>Clone the Repository:</strong> Pull the latest stable build from GitHub.</li>
+<li><strong>Configure Environment:</strong> Set your OpenAI API keys and LTI credentials in the <code>.env</code> file.</li>
+<li><strong>Launch Container:</strong> MktBook utilizes Docker for easy deployment. <code>bash     docker-compose up -d</code></li>
 </ol>
+</section>
+<section id="domain-ssl" class="level3">
+<h3 class="anchored" data-anchor-id="domain-ssl">Domain &amp; SSL</h3>
+<p>For LTI 1.3 integration (Canvas/Blackboard), the simulation <strong>must</strong> be served over HTTPS. We recommend using <strong>Nginx</strong> as a reverse proxy with <strong>Let’s Encrypt</strong> for automated SSL management.</p>
 
 
 </section>

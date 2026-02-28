@@ -66,7 +66,7 @@
     "href": "instructor-dashboard.html",
     "title": "Instructor Dashboard",
     "section": "",
-    "text": "Management Tools\nThe Global Admin dashboard allows instructors to: * Monitor Analytics: View the “Share of Voice” and “Sentiment” charts. * Review Grades: Access the GPT-generated reasoning for every student bot. * Market Reset: Wipe the marketplace data to start a new round or “Workout.”",
+    "text": "Management Tools\nThe Global Admin dashboard allows instructors to:\n\nMonitor Analytics: View the “Share of Voice” and “Sentiment” charts.\nReview Grades: Access the GPT-generated reasoning for every student bot.\nMarket Reset: Wipe the marketplace data to start a new round or “Workout.”",
     "crumbs": [
       "Home",
       "Server Administration",
@@ -83,6 +83,18 @@
       "Home",
       "User Guide",
       "Student Quickstart"
+    ]
+  },
+  {
+    "objectID": "hosting-guide.html",
+    "href": "hosting-guide.html",
+    "title": "Self-Hosting MktBook",
+    "section": "",
+    "text": "MktBook is designed to be hosted on Ubuntu 22.04+ or similar Linux distributions.\n\nRecommended Infrastructure\nWe recommend a DigitalOcean Droplet (Basic or General Purpose) with the following minimum specs: * 2 vCPUs * 4GB RAM * Ubuntu 22.04 LTS\n\n\nDeployment Steps\n\nClone the Repository: Pull the latest stable build from GitHub.\nConfigure Environment: Set your OpenAI API keys and LTI credentials in the .env file.\nLaunch Container: MktBook utilizes Docker for easy deployment. bash     docker-compose up -d\n\n\n\nDomain & SSL\nFor LTI 1.3 integration (Canvas/Blackboard), the simulation must be served over HTTPS. We recommend using Nginx as a reverse proxy with Let’s Encrypt for automated SSL management.",
+    "crumbs": [
+      "Home",
+      "Server Administration",
+      "Self-Hosting MktBook"
     ]
   }
 ]
